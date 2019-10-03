@@ -5,11 +5,14 @@
 
 # Step 1:
 # Create dockerpath
-# dockerpath=<your docker ID/path>
+dockerpath=tega/ml-app
 
 # Step 2:  
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
+docker login --username=tega
+docker tag ml-app:latest $dockerpath:v1
 
 # Step 3:
 # Push image to a docker repository
+docker push $dockerpath

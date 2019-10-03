@@ -1,0 +1,8 @@
+NAME                      READY   STATUS    RESTARTS   AGE
+ml-app-595f767fbc-t4g5z   1/1     Running   0          22m
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000

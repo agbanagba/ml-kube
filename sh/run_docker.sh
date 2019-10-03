@@ -4,7 +4,7 @@
 
 # Step 1:
 # Build image and add a descriptive tag
-docker build --tag ml-app:latest .
+docker build --tag ml-app:latest ../.
 
 # Step 2: 
 # List docker images
@@ -12,4 +12,4 @@ docker images
 
 # Step 3: 
 # Run flask app
-docker run 
+docker run --rm --name ml-app -p 8000:80 ml-app:latest
